@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import GameBoyGoldWebsite from './GameBoyGoldWebsite';
 
 function App() {
   return (
-    <GameBoyGoldWebsite />
+    <div>
+      <GameBoyGoldWebsite />
+    </div>
   );
 }
 
