@@ -5,7 +5,7 @@ const GameBoyGoldWebsite = () => {
   const [currentPage, setCurrentPage] = useState('home');
   
   const backgroundImage = {
-    backgroundImage: `url('/api/placeholder/1920/1080')`,
+    backgroundImage: `url('/images/gameboy.png')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat'
